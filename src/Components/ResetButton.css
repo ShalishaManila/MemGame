@@ -1,0 +1,21 @@
+.reset-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .reset-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #1f8b25;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Rammetto One', sans-serif;
+    transition: #14b41c 0.3s ease;
+  }
+
+.reset-btn:hover {
+    background-color: #14b41c;
+    cursor: pointer;
+    color: white;
+}
