@@ -6,7 +6,7 @@ name: MemGame Publish
 on:
   release:
     types: [created]
-    #workflow_dispatch: # Put here!!
+    workflow_dispatch: memgamepublish
 
 jobs:
   build:
