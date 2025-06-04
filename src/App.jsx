@@ -16,12 +16,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/MemGame/login" element={<Login />} />
+          <Route path="/MemGame/register" element={<Register />} />
           {/* protected pages */}
-          <Route path="/" element={<ProtectedPages />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/game" element={<MemoryGame />} />
+          <Route path="/MemGame/" element={<ProtectedPages />}>
+            <Route path="/MemGame/" element={<Home />} />
+            <Route path="/MemGame/game" element={<MemoryGame />} />
           </Route>
           <Route path="*" element={<></>} />
         </Routes>

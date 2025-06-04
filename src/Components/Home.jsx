@@ -8,10 +8,10 @@ const Home = () => {
   const userName = JSON.parse(localStorage.getItem("user"));
   const handleLogout = () => {
     localStorage.removeItem("loggedin");
-    navigate("/login");
+    navigate("/MemGame/login");
   };
   const openGame = () => {
-    navigate("/game");
+    navigate("/MemGame/game");
   }
   return (
     <>

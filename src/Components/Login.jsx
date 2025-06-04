@@ -31,7 +31,7 @@ const Login = () => {
       localStorage.setItem("user", JSON.stringify(loggeduser));
       setShowSuccess(true);
       setTimeout(() => {
-        navigate("/");
+        navigate("/MemGame/");
       }, 3000);
     } else {
       setShowAlert(true);
@@ -105,7 +105,7 @@ const Login = () => {
               <Form.Group>
                 <p className="text-center text-muted mt-5 mb-0">
                   Don't have an account?
-                  <a href="/register" className="fw-bold text-body">
+                  <a href="/MemGame/register" className="fw-bold text-body">
                     <u> Register here </u>
                   </a>
                 </p>

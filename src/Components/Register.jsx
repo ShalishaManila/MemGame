@@ -19,7 +19,7 @@ function Register() {
     localStorage.setItem("user", JSON.stringify(input));
     setShowSuccess(true);
     setTimeout(() => {
-      navigate("/login");
+      navigate("/MemGame/login");
     }, 3000);
   };
 
