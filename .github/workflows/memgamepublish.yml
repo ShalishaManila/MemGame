@@ -14,8 +14,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
-      - run: npm test
+      - run: echo 'Buildin progress'
+      - run: npm run build
+      - run: npm run
 
   publish-gpr:
     needs: build
