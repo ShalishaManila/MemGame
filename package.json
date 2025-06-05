@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "main -d dist"
+    "deploy" : "main -d build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
