@@ -3,7 +3,6 @@ import './MemoryGame.css';
 import ResetButton from './ResetButton';
 import Card from './Card';
 import { supabase } from '../supabaseClient';
-import GameStats from './Gamestats';
 import LogoutButton from './LogoutButton';
 
 //emojis
