@@ -2,11 +2,11 @@ import { useState } from "react";
 import "./App.css";
 import Login from "./Components/Login.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Register from "./components/Register.jsx";
+import Register from "./Components/Register.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home.jsx";
+import Home from "./Components/Home.jsx";
 import ProtectedPages from "./services/ProtectedPages.jsx";
-import Game from "./components/Game.jsx";
+import Game from "./Components/Game.jsx";
 import MemoryGame from "./Components/MemoryGame.jsx";
 
 function App() {
